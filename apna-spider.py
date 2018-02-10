@@ -55,8 +55,8 @@ def main():
 		numberofpages = int(sys.argv[2])
 		bookurl = sys.argv[3]
 	else:
-		print("Correct format of running this is apna-spider.py [space] bookname [space] numberofpages [space] bookurl")
-		print("e.g.")
+		print("Correct format of running this is: \npython apna-spider.py [space] bookname [space] numberofpages [space] bookurl")
+		print("for example:")
 		print("apna-spider.py \"Khed Muqadaran Di\" \"255\" \"http://apnaorg.com/books/shahmukhi/raja-1/book.php?fldr=book\"")
 		quit()
 
